@@ -53,6 +53,8 @@ Public Class frmMain
             Return
         End Try
 
+        lblChosenFile.Text = openFileDialog.FileName
+
         playVideo()
         
     End Sub
