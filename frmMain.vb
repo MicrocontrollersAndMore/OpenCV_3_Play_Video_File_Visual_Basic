@@ -53,6 +53,10 @@ Public Class frmMain
             Return
         End Try
 
+        If (capVideo Is Nothing) Then
+            txtInfo.AppendText("unable to read video file")
+        End If
+
         lblChosenFile.Text = openFileDialog.FileName
 
         playVideo()
