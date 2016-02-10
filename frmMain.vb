@@ -1,4 +1,4 @@
-﻿'PlayVideoFileVB
+﻿'Play_Video_File_VB
 'frmMain.vb
 '
 'Emgu CV 3.0.0
