@@ -1,7 +1,7 @@
-﻿'Play_Video_File_VB
+﻿'PlayVideoFileVB
 'frmMain.vb
 '
-'Emgu CV 3.0.0
+'Emgu CV 3.1.0
 '
 'form components:
 'tableLayoutPanel
@@ -80,7 +80,7 @@ Public Class frmMain
                 Return
             End If
             
-            ibOriginal.Image = imgFrame
+            imageBox.Image = imgFrame
 
             Application.DoEvents()
 
@@ -91,3 +91,5 @@ Public Class frmMain
     End Sub
 
 End Class
+
+
