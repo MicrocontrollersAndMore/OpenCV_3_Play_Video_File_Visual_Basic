@@ -7,7 +7,7 @@
 'tableLayoutPanel
 'btnOpenFile
 'lblChosenFile
-'ibOriginal
+'imageBox
 'txtInfo
 'openFileDialog
 
